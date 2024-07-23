@@ -1,0 +1,15 @@
+*__pycache__
+*.pyc
+*.log
+*.swp
+tags
+punkt.zip
+wordnet.zip
+.idea/
+aste/data/
+aste/temp_data/
+models/
+model_outputs/
+outputs/
+pretrained_weight/*
+!pretrained_weight/
