@@ -1,5 +1,6 @@
 import argparse
 import pandas as pd
+import os
 
 # 加载参数
 parser = argparse.ArgumentParser(description="Predict using the model.")
@@ -29,6 +30,8 @@ for line in tagged_sentences:
     if not re.search(r"#### ####", line):
         print(line)
 
+if not os.path.exists('aste/temp_data'):
+    os.makedirs('aste/temp_data')
 with open('aste/temp_data/'+dataset+'.csv', 'w', encoding='utf-8') as file:
     file.writelines(tagged_sentences)
 

@@ -13,3 +13,4 @@ model_outputs/
 outputs/
 pretrained_weight/*
 !pretrained_weight/
+!pretrained_weight/.gitkeep

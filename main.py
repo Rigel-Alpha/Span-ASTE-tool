@@ -5,7 +5,7 @@
         参考dataset中的示例数据集。
 
     参数说明:
-        dataset:放在dataset目录下的待预测的csv文件名称。
+        dataset:放在dataset目录下的待预测的csv文件名称，默认为14lap中划分的测试集。
         using_train: 是否要重新训练数据，还是直接使用pretrain_weight中的权重
         model_name:采用这个数据集进行训练，日志和权重保存在outputs/{model_name}目录中。
         random_seed:采用这个种子进行训练。
@@ -20,7 +20,7 @@ import subprocess
 import os
 
 dataset = "14lap"
-using_train = True
+using_train = False
 model_name = "14lap"  # 可选值有"14lap" "14res" "15res" "16res"
 random_seed = 18
 
