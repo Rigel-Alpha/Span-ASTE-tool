@@ -8,7 +8,7 @@ wordnet.zip
 .idea/
 aste/data/
 aste/temp_data/
-models/
+span_model/models/bert/pytorch_model.bin
 model_outputs/
 outputs/
 pretrained_weight/*
