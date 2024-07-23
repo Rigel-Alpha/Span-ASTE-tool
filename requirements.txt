@@ -7,8 +7,7 @@ fire==0.3.1
 nltk==3.6.6
 numpy==1.21.5
 pandas==1.1.5
+protobuf==3.20.*
 pydantic==1.6.2
 scikit-learn==0.22.2.post1
-torch==1.7.0
-torchvision==0.8.1n  
 transformers==3.4.0
